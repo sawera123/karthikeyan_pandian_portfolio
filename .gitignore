@@ -1,4 +1,7 @@
-node_modules/ 
-.next/ 
-dist/ 
-.env 
+# Ignore dependencies
+node_modules/
+.cache/
+build/
+.env
+.DS_Store
+.vscode/
