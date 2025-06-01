@@ -17,7 +17,7 @@ function About() {
                 <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>
               </svg>
             </div>
-            <p>hello i'm project manger </p>
+            <p>Hello! I'm Project Planner </p>
           </div>
        {/* <!-- End Section Title --> */}
 
@@ -32,27 +32,25 @@ function About() {
 
             <div className="col-lg-6" data-aos="fade-left" data-aos-delay="300">
               <div className="about-content">
-                <span className="subtitle">About Karthikeyan</span>
+                <span className="subtitle">About Karthikeyan PMP® FSBI®</span>
 
-                <h2>Project Engineer &amp; Web Developer</h2>
+                <h2>Planning Engineer / Planner </h2>
 
-                <p className="lead mb-4"> I'm a passionate Project Engineer having 4+ years of experience in oil and gas as Project/Planning Engineer (Offshore).
-        Diligent worker with good communication and task prioritization skills, eager to contribute to team success through
-        smart work..</p>
+                <p className="lead mb-4"> Planning Engineer with 4+ years of experience in the Oil & Gas sector, specializing in offshore project scheduling, progress control, and stakeholder coordination. Proficient in Primavera P6, earned value management, and resource optimization. Known for analytical problem-solving, cross-functional collaboration, and precision-driven reporting. A results-oriented professional committed to delivering project objectives on time and within scope..</p>
 
                 <div className="personal-info">
                   <div className="row g-4">
                     <div className="col-6">
                       <div className="info-item">
                         <span className="label">Name</span>
-                        <span className="value">Karthikeyan P</span>
+                        <span className="value">Karthikeyan PMP® FSBI®</span>
                       </div>
                     </div>
 
                     <div className="col-6">
                       <div className="info-item">
                         <span className="label">Phone</span>
-                        <span className="value">+123 456 7890</span>
+                        <span className="value">+91 7397597561</span>
                       </div>
                     </div>
 
@@ -66,14 +64,14 @@ function About() {
                     <div className="col-6">
                       <div className="info-item">
                         <span className="label">Email</span>
-                        <span className="value">email@example.com</span>
+                        <span className="value">Karthikeyanp3198@gmail.com</span>
                       </div>
                     </div>
 
                     <div className="col-6">
                       <div className="info-item">
                         <span className="label">Occupation</span>
-                        <span className="value">Project Engineer</span>
+                        <span className="value">Planning Engineer / Planner </span>
                       </div>
                     </div>
 

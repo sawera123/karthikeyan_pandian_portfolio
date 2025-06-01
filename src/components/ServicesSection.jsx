@@ -1,6 +1,10 @@
 import React from 'react';
 import './ServicesSection.css';
-import { Star, Brush, Code2, Smartphone, Globe, PenTool, ShoppingCart, MonitorCheck } from 'lucide-react';
+import { 
+  Star, Smartphone, Globe, 
+  MonitorCheck, Wrench, BarChart2, 
+  AppWindow, Repeat, LayoutDashboard, HelpingHand 
+} from 'lucide-react';
 
 const Services = () => {
   return (
@@ -8,50 +12,53 @@ const Services = () => {
       <section id="services" className="services section light-background">
         <div className="container">
           <h1 className="services-section-heading">Services</h1>
-          <p>We provide high-standard clean websites for your business solutions.</p>
+          <p>Let’s Build Your Projects with Precision and Cutting-Edge Solutions</p>
 
           <div className="row">
-            {/* UI/UX Design - Basic */}
+
+            {/* Power Productivity Pack */}
             <div className="col-12 col-md-6 col-lg-4">
               <div className="card">
-                <i className="fas fa-desktop"></i>
-                <h2><Star className="star-icon" /> Basic - UI/UX Design</h2>
+                <i className="fas fa-bolt card-icon"></i>
+                <h2>Power Productivity Pack</h2>
                 <ul className="service-list">
-                  <li><Brush size={18} /> Wireframing and Prototyping</li>
-                  <li><PenTool size={18} /> Figma & Adobe XD Designs</li>
-                  <li><MonitorCheck size={18} /> Responsive Design</li>
-                  <li><Globe size={18} /> Website Redesign</li>
+                  <li><Wrench size={18} /> Boost Performance & Fix Errors (Excel VBA)</li>
+                  <li><BarChart2 size={18} /> Dynamic Dashboards (Power BI)</li>
+                  <li><AppWindow size={18} /> Smart App Interfaces (Power Apps)</li>
+                  <li><Repeat size={18} /> Workflow Automation (Power Automate)</li>
                 </ul>
               </div>
             </div>
 
-            {/* Web Development - Standard */}
+            {/* 4D Scheduling & Project Visualization Suite */}
             <div className="col-12 col-md-6 col-lg-4">
               <div className="card">
-                <i className="fas fa-code"></i>
-                <h2 className='card-title'><Star className="star-icon" /> Standard - Web Development</h2>
+                <i className="fas fa-desktop card-icon"></i>
+
+                <h2>Power Productivity Pack</h2>
                 <ul className="service-list">
-                  <li><Code2 size={18} /> React.js / Next.js Development</li>
-                  <li><Globe size={18} /> SEO-Friendly Websites</li>
-                  <li><ShoppingCart size={18} /> E-commerce Functionality</li>
-                  <li><MonitorCheck size={18} /> Landing Pages</li>
+                  <li><BarChart2 size={18} /> 4D Scheduling and Actual vs. Plan Simulation</li>
+                  <li><Globe size={18} /> Design Interactive Power BI dashboards & KPI.</li>
+                  <li><MonitorCheck size={18} /> Simulation for Complex Lifting Plan</li>
+                  <li><Smartphone size={18} /> Customizable Reports for better insights</li>
                 </ul>
               </div>
             </div>
 
-            {/* Mobile Development - Premium */}
+            {/* Ultimate Project Automation Pack */}
             <div className="col-12 col-md-6 col-lg-4">
               <div className="card">
-                <i className="fas fa-mobile-alt"></i>
-                <h2><Star className="star-icon" /> Premium - Mobile Development</h2>
+                <i className="fas fa-globe card-icon"></i>
+                <h2>Power Productivity Pack</h2>
                 <ul className="service-list">
-                  <li><Smartphone size={18} /> Flutter / React Native Apps</li>
-                  <li><MonitorCheck size={18} /> Play Store & App Store Launch</li>
-                  <li><Globe size={18} /> API Integration</li>
-                  <li><PenTool size={18} /> Modern UI Implementation</li>
+                  <li><Smartphone size={18} /> Seamless Cross-Platform Integration</li>
+                  <li><BarChart2 size={18} /> Automated Scheduling & Reporting</li>
+                  <li><Repeat size={18}/> Smart Workflow Automation</li>
+                  <li><Globe size={18} /> Reduce 80% of Manual Work</li>
                 </ul>
               </div>
             </div>
+
           </div>
         </div>
       </section>

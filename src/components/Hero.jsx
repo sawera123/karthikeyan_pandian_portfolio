@@ -12,7 +12,7 @@ function Hero() {
   const [text, setText] = useState("");
   const [index, setIndex] = useState(0);
   const [deleting, setDeleting] = useState(false);
-  const titles = ["Graphic Designer", "Data Analyst", "Excel Expert"];
+  const titles = ["Planning Engineer", "Project Planner", "Project Control and Monitoring"];
 
   useEffect(() => {
     let typing;
@@ -39,12 +39,12 @@ function Hero() {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6 col-md-12 mb-4 mb-lg-0">
-            <h5 className="subtitle mb-3">Hello! This is Karthikeyan</h5>
+            <h5 className="subtitle mb-3">Hello! This is Karthikeyan PMP® FSBI®</h5>
             <h1 className="fw-bold mb-3">
               I'm <span className="typing-text">{text}</span>
             </h1>
             <p className=" mb-4 description-text">
-              I'm a passionate Project Engineer having 4+ years of experience in oil and gas as Project/Planning Engineer (Offshore).
+              I'm a passionate Project Engineer having 4+ years of experience in oil and gas as Project/Planning Engineer (Offshore).Efficient in handling large datasets with precision, ensuring accurate analysis and reporting. Skilled at presenting complex data through clear visuals and easy-to-understand formats.
             </p>
 
             <div className="d-flex flex-wrap gap-3">
