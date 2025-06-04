@@ -62,7 +62,8 @@ a {
 }
 
 a:hover {
-  color: color-mix(in srgb, var(--accent-color), transparent 25%);
+  color: rgba(232, 117, 50, 0.75);
+
   text-decoration: none;
 }
 
@@ -168,7 +169,8 @@ h6 {
 }
 
 .header .header-social-links a {
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
+color: rgba(10, 15, 20, 0.6);
+
   padding-left: 6px;
   display: inline-block;
   transition: 0.3s;
@@ -374,7 +376,8 @@ h6 {
     justify-content: center;
     border-radius: 50%;
     transition: 0.3s;
-    background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+    background-color: rgba(232, 117, 50, 0.10);
+
   }
 
   .navmenu a i:hover,
@@ -403,7 +406,8 @@ h6 {
     padding: 10px 0;
     margin: 10px 20px;
     background-color: var(--nav-dropdown-background-color);
-    border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+border: 1px solid rgba(10, 15, 20, 0.1);
+
     box-shadow: none;
     transition: all 0.5s ease-in-out;
   }
@@ -471,9 +475,11 @@ h6 {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
+ border: 1px solid rgba(10, 15, 20, 0.5);
+
   font-size: 16px;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
+ color: rgba(51, 51, 51, 0.5);
+
   margin: 0 5px;
   transition: 0.3s;
 }
@@ -513,7 +519,7 @@ h6 {
 }
 
 .scroll-top:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+ background-color: rgba(233, 30, 99, 0.8); /* 80% visible = 20% transparent */
   color: var(--contrast-color);
 }
 
@@ -553,7 +559,7 @@ h6 {
 
 .page-title .breadcrumbs .breadcrumb .breadcrumb-item {
   font-size: 0.9rem;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+color: rgba(52, 152, 219, 0.7);
 }
 
 .page-title .breadcrumbs .breadcrumb .breadcrumb-item.active {
@@ -576,7 +582,8 @@ h6 {
 }
 
 .page-title .breadcrumbs .breadcrumb .breadcrumb-item+.breadcrumb-item::before {
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
+color: rgba(52, 152, 219, 0.5);  /* #3498db ka 50% transparent version */
+
 }
 
 .page-title .title-wrapper {
@@ -594,7 +601,7 @@ h6 {
 
 .page-title .title-wrapper p {
   font-size: 1.1rem;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  color: rgba(10, 15, 20, 0.2);
   margin: 0;
   line-height: 1.6;
 }
@@ -672,7 +679,8 @@ section,
   margin: 15px auto 0;
   font-size: 16px;
   max-width: 700px;
-  color: color-mix(in srgb, var(--default-color), transparent 25%);
+color: rgba(10, 15, 20, 0.25);
+
   line-height: 1.8;
 }
 
@@ -711,7 +719,8 @@ section,
 .hero .content .lead {
   font-size: 1.25rem;
   margin-bottom: 2rem;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  color: rgba(10, 15, 20, 0.2);
+
 }
 
 .hero .cta-buttons {
@@ -741,13 +750,13 @@ section,
 }
 
 .hero .cta-buttons .btn.btn-primary:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 15%);
-  border-color: color-mix(in srgb, var(--accent-color), transparent 15%);
+  background-color: rgba(232, 117, 50, 0.85);
+  border-color: rgba(232, 117, 50, 0.85);
   transform: translateY(-2px);
 }
 
 .hero .cta-buttons .btn.btn-outline {
-  border: 2px solid color-mix(in srgb, var(--accent-color), transparent 70%);
+  border: 2px solid rgba(232, 117, 50, 0.30);
   color: var(--accent-color);
   background: transparent;
 }
@@ -781,7 +790,7 @@ section,
 
 .hero .hero-stats .stat-item .stat-label {
   font-size: 0.9rem;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+ color: rgba(10, 15, 20, 0.3);
   margin-top: 0.5rem;
   display: block;
 }
@@ -806,7 +815,7 @@ section,
 .hero .hero-image .shape-1 {
   width: 300px;
   height: 300px;
-  background-color: color-mix(in srgb, var(--accent-color), transparent 85%);
+  background-color: rgba(232, 117, 50, 0.15);
   top: -20px;
   right: -20px;
   animation: morphShape 15s linear infinite;
@@ -815,7 +824,7 @@ section,
 .hero .hero-image .shape-2 {
   width: 200px;
   height: 200px;
-  background-color: color-mix(in srgb, var(--heading-color), transparent 90%);
+  background-color: rgba(15, 41, 67, 0.10);
   bottom: -20px;
   left: -20px;
   animation: morphShape 20s linear infinite reverse;
@@ -901,7 +910,8 @@ section,
 
 .about .about-content .lead {
   font-size: 1.1rem;
-  color: color-mix(in srgb, var(--default-color), transparent 25%);
+  color: rgba(10, 15, 20, 0.25);
+
 }
 
 .about .personal-info {
@@ -920,7 +930,8 @@ section,
 
 .about .personal-info .info-item .label {
   font-size: 0.875rem;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
+color: rgba(10, 15, 20, 0.6);
+
 }
 
 .about .personal-info .info-item .value {
@@ -945,7 +956,8 @@ section,
 
 .about .signature .signature-info p {
   font-size: 0.875rem;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
+color: rgba(10, 15, 20, 0.6);
+
   margin: 0;
 }
 
@@ -972,7 +984,7 @@ section,
 }
 
 .skills .skill-box .progress {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 85%);
+  background-color: rgba(232, 117, 50, 0.15);
   border-radius: 50px;
   height: 8px;
   margin-top: 5px;
@@ -1010,7 +1022,8 @@ section,
 }
 
 .resume .resume-wrapper .resume-block .lead {
-  color: color-mix(in srgb, var(--default-color), transparent 25%);
+ color: rgba(10, 15, 20, 0.25);
+
   margin-bottom: 3rem;
 }
 
@@ -1025,7 +1038,7 @@ section,
   top: 0;
   height: 100%;
   width: 2px;
-  background-color: color-mix(in srgb, var(--accent-color), transparent 85%);
+  background-color: rgba(232, 117, 50, 0.15);
 }
 
 .resume .resume-wrapper .timeline .timeline-item {
@@ -1080,7 +1093,8 @@ section,
 }
 
 .resume .resume-wrapper .timeline .timeline-item .timeline-right .description {
-  color: color-mix(in srgb, var(--default-color), transparent 25%);
+ color: rgba(10, 15, 20, 0.25);
+
 }
 
 .resume .resume-wrapper .timeline .timeline-item .timeline-right ul {
@@ -1147,13 +1161,13 @@ section,
   padding: 8px 20px;
   cursor: pointer;
   border-radius: 30px;
-  background-color: color-mix(in srgb, var(--surface-color), transparent 50%);
+background-color: rgba(255, 255, 255, 0.50);
   color: var(--default-color);
   transition: all 0.3s ease-in-out;
 }
 
 .portfolio .portfolio-filters li:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 85%);
+  background-color: rgba(232, 117, 50, 0.15);
   color: var(--accent-color);
   transform: translateY(-2px);
 }
@@ -1188,7 +1202,7 @@ section,
 .portfolio .portfolio-card .portfolio-image {
   position: relative;
   overflow: hidden;
-  aspect-ratio: 16/10;
+  aspect-ratio: 1.6;
 }
 
 .portfolio .portfolio-card .portfolio-image img {
@@ -1266,7 +1280,7 @@ section,
 
 .portfolio .portfolio-card .portfolio-content p {
   font-size: 15px;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: rgba(10, 15, 20, 0.30);
   margin: 0;
   line-height: 1.6;
 }
@@ -1347,7 +1361,8 @@ section,
 
 .testimonials .testimonial-item .profile .profile-info span {
   font-size: 14px;
-  color: color-mix(in srgb, var(--default-color) 70%, transparent);
+color: rgba(10, 15, 20, 0.7); /* 70% opacity */
+
 }
 
 .testimonials .testimonial-item .featured-img-wrapper {
@@ -1383,7 +1398,8 @@ section,
   height: 44px;
   background-color: var(--surface-color);
   border-radius: 50%;
-  border: 1px solid color-mix(in srgb, var(--default-color) 10%, transparent);
+  border: 1px solid rgba(10, 15, 20, 0.1); /* 10% opacity */
+
   transition: 0.3s;
 }
 
@@ -1464,7 +1480,8 @@ section,
 
 .services .service-item p {
   font-size: 0.9rem;
-  color: color-mix(in srgb, var(--default-color), transparent 25%);
+ color: rgba(10, 15, 20, 0.25);
+
 }
 
 @media (max-width: 991px) {
@@ -1481,7 +1498,7 @@ section,
   position: relative;
   padding: 20px;
   margin-bottom: 15px;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+border: 1px solid rgba(10, 15, 20, 0.15);
   border-radius: 5px;
   overflow: hidden;
 }
@@ -1538,8 +1555,9 @@ section,
 }
 
 .faq .faq-container .faq-active {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 97%);
-  border-color: color-mix(in srgb, var(--accent-color), transparent 80%);
+ background-color: rgba(232, 117, 50, 0.03);
+border-color: rgba(232, 117, 50, 0.20);
+
 }
 
 .faq .faq-container .faq-active h3 {
@@ -1575,7 +1593,8 @@ section,
 }
 
 .contact .content .lead {
-  color: color-mix(in srgb, var(--default-color), transparent 25%);
+ color: rgba(10, 15, 20, 0.25);
+
 }
 
 .contact .contact-info .info-item {
@@ -1623,13 +1642,15 @@ section,
 
 .contact .contact-form .form-control:focus,
 .contact .contact-form .form-select:focus {
-  border-color: color-mix(in srgb, var(--accent-color), transparent 50%);
-  box-shadow: 0 0 0 0.25rem color-mix(in srgb, var(--accent-color), transparent 90%);
+  border-color: rgba(232, 117, 50, 0.50);
+box-shadow: 0 0 0 0.25rem rgba(232, 117, 50, 0.10);
+
 }
 
 .contact .contact-form .form-control::placeholder,
 .contact .contact-form .form-select::placeholder {
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  color: rgba(10, 15, 20, 0.50);
+
 }
 
 .contact .contact-form .btn-submit {
@@ -1642,7 +1663,7 @@ section,
 }
 
 .contact .contact-form .btn-submit:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 15%);
+ background-color: rgba(232, 117, 50, 0.85);
   transform: translateY(-1px);
 }
 
@@ -1687,7 +1708,7 @@ section,
 .portfolio-details .portfolio-info ul strong {
   text-transform: uppercase;
   font-weight: 400;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
+color: rgba(10, 15, 20, 0.50);
   font-size: 14px;
 }
 
@@ -1700,7 +1721,8 @@ section,
 }
 
 .portfolio-details .portfolio-info .btn-visit:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+background: rgba(232, 117, 50, 0.80);
+
 }
 
 .portfolio-details .portfolio-description h2 {
@@ -1716,7 +1738,7 @@ section,
 .portfolio-details .portfolio-description .testimonial-item {
   padding: 30px 30px 0 30px;
   position: relative;
-  background: color-mix(in srgb, var(--default-color), transparent 97%);
+  background: rgba(10, 15, 20, 0.03);
   margin-bottom: 50px;
 }
 
@@ -1743,7 +1765,7 @@ section,
 
 .portfolio-details .portfolio-description .testimonial-item .quote-icon-left,
 .portfolio-details .portfolio-description .testimonial-item .quote-icon-right {
-  color: color-mix(in srgb, var(--accent-color), transparent 50%);
+color: rgba(232, 117, 50, 0.50);
   font-size: 26px;
   line-height: 0;
 }
@@ -1811,7 +1833,8 @@ section,
 }
 
 .service-details .content p {
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+ color: rgba(10, 15, 20, 0.80);
+
   margin-bottom: 15px;
 }
 
@@ -1852,7 +1875,8 @@ section,
   font-weight: 700;
   margin-bottom: 25px;
   padding-bottom: 15px;
-  border-bottom: 2px solid color-mix(in srgb, var(--accent-color), transparent 85%);
+  border-bottom: 2px solid rgba(232, 117, 50, 0.15);
+
 }
 
 .service-details .service-info .info-item {
@@ -1876,7 +1900,7 @@ section,
 }
 
 .service-details .service-info .info-item p {
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+color: rgba(10, 15, 20, 0.80);
   margin: 0;
 }
 
@@ -1892,13 +1916,14 @@ section,
   font-weight: 700;
   margin-bottom: 25px;
   padding-bottom: 15px;
-  border-bottom: 2px solid color-mix(in srgb, var(--accent-color), transparent 85%);
+  border-bottom: 2px solid rgba(232, 117, 50, 0.15);
+
 }
 
 .service-details .related-services .service-item {
   margin-bottom: 25px;
   padding-bottom: 25px;
-  border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border-bottom: 1px solid rgba(10, 15, 20, 0.10);
 }
 
 .service-details .related-services .service-item:last-child {
@@ -1928,7 +1953,7 @@ section,
 }
 
 .service-details .related-services .service-item p {
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  color: rgba(10, 15, 20, 0.80);
   margin: 0;
   font-size: 14px;
 }
